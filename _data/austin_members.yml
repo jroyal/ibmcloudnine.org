@@ -1,0 +1,21 @@
+members:
+  - member:
+    name: James Royal
+    position: Software Engineer
+    picture: james-royal.jpg
+  - member:
+    name: Lisa Armstrong
+    position: Software Engineer
+    picture: lisa-armstrong.jpg
+  - member:
+    name: Janek Lehr
+    position: Software Engineer
+    picture: janek-lehr.jpg
+  - member:
+    name: Jennifer Mulsow
+    position: Software Engineer
+    picture: jennifer-mulsow.PNG
+  - member:
+    name: Brad Simpson
+    position: Development Manager
+    picture:
