@@ -18,3 +18,8 @@ members:
   - member:
     name: Brad Simpson
     position: Development Manager
+    picture: brad-simpson.jpg
+  - member:
+    name: Carlito
+    position: Cloud 9 Mascot
+    picture: carlito.jpg

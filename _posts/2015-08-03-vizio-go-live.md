@@ -4,6 +4,7 @@ title:      "The Austin Go Live Party. A fun day of avoiding any real work."
 subtitle:   "It finally happened."
 date:       2015-08-03
 author:     "James Royal"
+description: "The full story of how the Austin go live party came to be. Plus some pictures of course."
 ---
 
 ### Brainstorming

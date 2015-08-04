@@ -22,9 +22,33 @@
 
 <!-- jQuery -->
 <script src="{{ "/assets/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/moment.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="{{ "/assets/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/assets/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
+
+<!-- Calendar JavaScript -->
+<script src="{{ "/assets/js/fullcalendar.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/gcal.js " | prepend: site.baseurl }}"></script>
+
+<script type='text/javascript'>
+
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+        googleCalendarApiKey: 'AIzaSyB45I31jKwKMNaIdCQrf1Ac3uobYtpC59M',
+        events: {
+            googleCalendarId: 'csswcloud9austin@gmail.com'
+        },
+        header: {
+            left:   'today',
+            center: 'title',
+            right:  'prev,next'
+        },
+        eventLimit: true
+    });
+});
+
+</script>
