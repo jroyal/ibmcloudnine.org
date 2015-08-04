@@ -2,14 +2,17 @@
 layout: page
 title: "About Us"
 description: "Your Austin Cloud 9 Committee"
-header-img: "assets/img/austin-skyline.jpeg"
+header-img: "assets/img/austin-skyline-at-dusk.jpg"
 ---
 
-
+<p>
+    Who are we? We are a group of Austin employees that work on trying to make our site a little more fun and enjoyable for everyone. We plan events and run outings to help take our minds off work and help build that sense of community that makes going to work a little better.
+</p>
+<p> If you think we could do something better please let us know! We love getting suggestions for new things to do or try.</p>
 {% for member in site.data.austin_members.members %}
 <div class="col-sm-4">
     <div class="team-member">
-        <img src="../assets/img/austin-team/{{ member.picture }}" class="img-responsive img-circle" alt="">
+        <img src="../assets/img/austin-team/{% if member.picture %}{{ member.picture }}{% else %}{{ 'unknown.png' }}{% endif %}" class="img-responsive img-circle" alt="">
         <h4>{{ member.name }}</h4>
         <p class="text-muted">{{ member.position }}</p>
         <ul class="list-inline social-buttons">
